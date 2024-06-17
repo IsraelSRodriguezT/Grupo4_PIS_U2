@@ -111,38 +111,33 @@ A continuación, te damos un ejemplo simplificado de cómo podría ser la ejecuc
 
 
     $ ./mi_programa
-    Fecha: 16/06/2024 , Hora: 10:30
-    
-    Bienvenido al programa para calcular la dirección y altura del sol.
-    Se requiere de tus coordenadas para realizar el cálculo.
-    
-    Ingresa la latitud: -3.99313
-    Ingresa la longitud: -79.20422
-    
-    Valor de latitud de su zona geográfica
+    Fecha: 17/6/2024 , Hora: 0:8
+    Bienvenido al programa para calcular la direccion y altura del sol
+    Se requiere de tus coordenadas para realizar el calculo
+    Ingresa la latitud
+    -3.99313
+    Ingresa la longitud
+    -79.20422
+    Valor de latitud de su zona geografica
     3.993130 S
-    Valor de longitud de su zona geográfica
-    79.204220 O
-    
-    Fechas hasta ahora: 0 años, 6 meses, 16 días
-    
-    Valor de la declinación solar -23.364773 en grados
-    
-    Valor de la ecuación del tiempo -0.206206 en radianes
-    
-    Valor de la longitud estándar: -75
+    Valor de longitud de su zona geografica
+    79.204224 O
+    Fechas hasta ahora: 0 anios, 5 meses, 169 dias
+    Valor de la declinacion solar 23.384757 en grados
+    Valor de la ecuacion del tiempo -0.766234 en radianes
+    Valor de la longitud estandar: -75
     Tu zona horaria es: -5
-    
     Valor de la Hora solar:
-    En decimales: 10.423794
-    En horas: 10
-    En minutos: 25
-    
-    Valor de H: 3.662078 en radianes
+    En decimales: -0.159719
+    En horas: 0
+    En minutos: -10
+    Valor de H: -3.183407 en radianes
     Valor de la altura solar:
-    En radianes: 0.063932
-    En grados: 3.662078
-    
-    El valor del Azimut: 3.123246 en radianes
-    El valor del Azimut: 179.158240 en grados
+    En radianes: -1.229946
+    En grados: -70.470730
+    El valor del Azimut: 0.115030 en radianes
+    El valor del Azimut: 6.590741 en grados
+    Los valores que van a ir hacia el panel son:
+    Para X: 6.590741 grados
+    Para Y: -70.470730 grados
 En este ejemplo, se muestra cómo el programa calcula la posición del sol para las coordenadas geográficas ingresadas. Los resultados pueden variar dependiendo de la ubicación y la hora del día en que se ejecute el programa.
