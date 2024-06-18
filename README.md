@@ -5,7 +5,7 @@ El proyecto se centra en desarrollar un sistema innovador de paneles solares que
 ### Definición del problema:
 El desafío principal radica en optimizar la captación de energía solar a través de un seguimiento automático del sol. Esto implica calcular dinámicamente la posición del sol en el cielo en cualquier momento dado, considerando su movimiento a lo largo del día y del año. Este cálculo continuo es esencial para ajustar la orientación de los paneles solares y asegurar una exposición máxima a la radiación solar, lo que se traduce en una mayor eficiencia energética.
 
-#### Objetivos del proyecto:
+### Objetivos del proyecto:
 El objetivo principal del proyecto es desarrollar un sistema de seguimiento solar preciso y eficiente que pueda implementarse en pequeña escala para aplicaciones cotidianas. Esto incluye proporcionar una metodología detallada basada en el Método SPA (Solar Position Algorithm), el cual permite calcular la posición del sol en función de la fecha, la hora y la ubicación geográfica específicas. Además, se busca integrar componentes eléctricos y algoritmos que gestionen el movimiento de los paneles solares de manera automática, optimizando así su rendimiento energético.
 
 # Requisitos
@@ -13,13 +13,13 @@ El objetivo principal del proyecto es desarrollar un sistema de seguimiento sola
 #### Requisitos de Software:
 
 ###### Sistema Operativo
-El programa está diseñado para ser ejecutado en un entorno que soporte compiladores de C estándar, como Windows.
+- El programa está diseñado para ser ejecutado en un entorno que soporte compiladores de C estándar, como Windows.
 ###### Compilador de C
-Se requiere un compilador de C compatible (por ejemplo, GCC en Windows o cualquier compilador que admita las bibliotecas estándar utilizadas).
+- Se requiere un compilador de C compatible (por ejemplo, GCC en Windows o cualquier compilador que admita las bibliotecas estándar utilizadas).
 ###### Bibliotecas estándar de C
-Las bibliotecas estándar utilizadas (stdio.h, time.h, math.h) deben estar disponibles y ser accesibles para el compilador.
+- Las bibliotecas estándar utilizadas (stdio.h, time.h, math.h) deben estar disponibles y ser accesibles para el compilador.
 ###### Biblioteca windows.h
-Específicamente requerida si se está desarrollando para el entorno Windows para algunas funciones relacionadas con el tiempo.
+- Específicamente requerida si se está desarrollando para el entorno Windows para algunas funciones relacionadas con el tiempo.
 #### Requisitos de Hardware
 
 ###### Plataforma Arduino
@@ -110,15 +110,15 @@ A continuación, te damos un ejemplo simplificado de cómo podría ser la ejecuc
 
 
 
-    $ ./mi_programa
-    Fecha: 17/6/2024 , Hora: 0:8
+    
+    Fecha: 17/6/2024 , Hora: 16:0
     Bienvenido al programa para calcular la direccion y altura del sol
     Se requiere de tus coordenadas para realizar el calculo
     Ingresa la latitud
     -3.99313
     Ingresa la longitud
     -79.20422
-    Valor de latitud de su zona geografica
+    Valor de latitud de su zona geografica 
     3.993130 S
     Valor de longitud de su zona geografica
     79.204224 O
@@ -128,16 +128,28 @@ A continuación, te damos un ejemplo simplificado de cómo podría ser la ejecuc
     Valor de la longitud estandar: -75
     Tu zona horaria es: -5
     Valor de la Hora solar:
-    En decimales: -0.159719
-    En horas: 0
-    En minutos: -10
-    Valor de H: -3.183407 en radianes
+    En decimales: 15.706948
+    En horas: 15
+    En minutos: 42
+    Valor de H: 0.970477 en radianes
     Valor de la altura solar:
-    En radianes: -1.229946
-    En grados: -70.470730
-    El valor del Azimut: 0.115030 en radianes
-    El valor del Azimut: 6.590741 en grados
+    En radianes: 0.511639
+    En grados: 29.314764
+    El valor del azimut cambio
+    El valor del Azimut: 5.230799 en radianes
+    El valor del Azimut: 299.702684 en grados
     Los valores que van a ir hacia el panel son:
-    Para X: 6.590741 grados
-    Para Y: -70.470730 grados
-En este ejemplo, se muestra cómo el programa calcula la posición del sol para las coordenadas geográficas ingresadas. Los resultados pueden variar dependiendo de la ubicación y la hora del día en que se ejecute el programa.
+    Para X: 299.702684 grados
+    Para Y: 29.314764 grados
+
+En este ejemplo, se muestra cómo el programa calcula la posición del sol para las coordenadas geográficas ingresadas que son de la provincia de Loja.
+
+    Latitud: -3.99313
+    Longitud: -79.20422
+Y la fecha y hora del sistema 
+
+    Fecha: 17/6/2024 
+    Hora: 16:0
+
+
+Los resultados pueden variar dependiendo de la ubicación y la hora del día en que se ejecute el programa.
