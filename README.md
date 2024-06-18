@@ -55,10 +55,12 @@ Abre Visual Studio Code y clona el repositorio que contiene el código del proye
 
 - Clona el repositorio utilizando el comando 
 
-    
 
-    git clone <URL_del_repositorio>
-    
+
+
+
+      git clone https://github.com/IsraelSRodriguezT/Grupo4_PIS_U2.git
+  
 Cambia al directorio del proyecto clonado utilizando el comando "cd".
 
 ###### Compilar y Ejecutar el Código
