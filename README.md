@@ -33,23 +33,19 @@ El objetivo principal del proyecto es desarrollar un sistema de seguimiento sola
 
 #### Requisitos de Hardware:
 ###### Plataforma Arduino
-![](https://http2.mlstatic.com/D_NQ_NP_811100-MEC76684260662_062024-O.webp)
-> Arduino uno R3
 
 - Se necesitaría un Arduino uno R3
 - Conexiones eléctricas adecuadas y conocimientos de cómo cargar y ejecutar el código en un Arduino.
 
 ###### Servomotor
-![](https://http2.mlstatic.com/D_NQ_NP_836854-MEC32400033461_102019-O.webp)
-> Servomotor
+
 
 - Dos servomotores para el seguimiento solar, que se moverán para orientar el panel solar hacia una posición óptima.
 - Un servomotor se movera en el eje x, con los resultados del azimut.
 - El otro servomotor se va a mover en el eje y, con los resultados de la altura solar.
 
 ###### Placa de Protoboard
-![](https://www.electrio.es/WebRoot/StoreES3/Shops/80295836/5E75/0236/E7D3/0030/608F/0A0C/6D10/89ED/Protoboad_400_1_ml.jpg)
-> Placa de Protoboard
+
 - Una placa de protoboard para montar los componentes de forma provisional y facilitar las conexiones.
 
 ###### Cables y Conectores
