@@ -44,12 +44,12 @@ El objetivo principal del proyecto es desarrollar un sistema de seguimiento sola
 > Servomotor
 
 - Dos servomotores para el seguimiento solar, que se moverán para orientar el panel solar hacia una posición óptima.
-- Un servomotor lo movera en el eje x, con los resultados del azimut.
-- El otro servomotor lo va a mover en el eje y, con los resultados de la altura solar.
+- Un servomotor se movera en el eje x, con los resultados del azimut.
+- El otro servomotor se va a mover en el eje y, con los resultados de la altura solar.
 
 ###### Placa de Protoboard
 ![](https://www.electrio.es/WebRoot/StoreES3/Shops/80295836/5E75/0236/E7D3/0030/608F/0A0C/6D10/89ED/Protoboad_400_1_ml.jpg)
-> Placa de protoboard
+> Placa de Protoboard
 - Una placa de protoboard para montar los componentes de forma provisional y facilitar las conexiones.
 
 ###### Cables y Conectores
@@ -101,19 +101,45 @@ Desde la terminal o línea de comandos, navega hasta el directorio donde se encu
 Sustituye "nombre_del_ejecutable" por el nombre que hayas elegido durante la compilación del programa.
 
 #### Proporcionar Coordenadas Geográficas:
-Una vez que el programa esté en ejecución, seguirá instrucciones para ingresar las coordenadas geográficas (latitud y longitud). Aquí te mostraré un ejemplo de cómo se pueden proporcionar coordenadas:
+Una vez que el programa esté en ejecución, seguirá instrucciones para ingresar las coordenadas geográficas (latitud y longitud).
+
+A continuacion se muestra un ejemplo de como se pueden proporcionar las coordenadas, teniendo en cuenta un rango de [-90,90] para la latitud y un rango de [-180,180] para la longitud.
 
 Ejemplo de Entrada:
 
+    Bienvenido al programa para calcular la direccion y altura del sol
+    Se requieren de tus coordenadas para realizar el calculo
+    Ingresa como dato flotante el valor de la latitud de tu zona. Teniendo en cuenta el rango [-90,90]
+    -3.99313
+    Ingresa como dato flotante el valor de la longitud de tu zona. Teniendo en cuenta el rango [-180,180]
+    -79.20422
 
-
-
-    Bienvenido al programa para calcular la dirección y altura del sol.
-    Se requiere de tus coordenadas para realizar el cálculo.
-    
-    Ingresa la latitud: -3.99313
-    Ingresa la longitud: -79.20422
 En este ejemplo, las coordenadas ingresadas son de Loja. El programa esperará que ingreses la latitud y la longitud en grados decimales.
+
+Cabe recalcar que el programa solicitara ingresar coordenadas en un rango limite, entoces se espera la entrada de un valor flotante, no ingresar letras o simbolos.
+
+A continuación se muestra un ejemplo de como se comportaria el programa si se ingresara letras y simbolos.
+
+Ejemplo de Entrada con letras y simbolos:
+
+    Bienvenido al programa para calcular la direccion y altura del sol
+    Se requieren de tus coordenadas para realizar el calculo
+    Ingresa como dato flotante el valor de la latitud de tu zona. Teniendo en cuenta el rango [-90,90]
+    e
+    Error: Entrada invalida. El dato ingresado no es un valor numerico
+    Ingresa como dato flotante el valor de la latitud de tu zona. Teniendo en cuenta el rango [-90,90]
+    t
+    Error: Entrada invalida. El dato ingresado no es un valor numerico
+    Ingresa como dato flotante el valor de la latitud de tu zona. Teniendo en cuenta el rango [-90,90]
+    $
+    Error: Entrada invalida. El dato ingresado no es un valor numerico
+    Ingresa como dato flotante el valor de la latitud de tu zona. Teniendo en cuenta el rango [-90,90]
+    %
+    Error: Entrada invalida. El dato ingresado no es un valor numerico
+    Ingresa como dato flotante el valor de la latitud de tu zona. Teniendo en cuenta el rango [-90,90]
+Como se logra obserbar el programa va a generar un error ya que el dato ingresado no es un valor numérico, permitiendo ingresar un valor numérico para poder avansar. 
+
+
 
 #### Resultados Esperados:
 Después de ingresar las coordenadas, el programa realizará cálculos internos utilizando las ecuaciones astronómicas y trigonométricas definidas en el código. Los resultados esperados incluyen:
@@ -167,7 +193,7 @@ En este ejemplo, se muestra cómo el programa calcula la posición del sol para 
 
     Latitud: -3.99313
     Longitud: -79.20422
-Y la fecha y hora del sistema 
+Fecha y hora del sistema 
 
     Fecha: 17/6/2024 
     Hora: 16:0
