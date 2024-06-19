@@ -137,7 +137,7 @@ Ejemplo de Entrada con letras y simbolos:
     %
     Error: Entrada invalida. El dato ingresado no es un valor numerico
     Ingresa como dato flotante el valor de la latitud de tu zona. Teniendo en cuenta el rango [-90,90]
-Como se logra obserbar el programa va a generar un error ya que el dato ingresado no es un valor numérico, permitiendo ingresar un valor numérico para poder avansar. 
+Como se logra observar el programa va a generar un error ya que el dato ingresado no es un valor numérico, permitiendo ingresar un valor numérico para poder avansar. 
 
 
 
