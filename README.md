@@ -199,3 +199,9 @@ Y da como resultado el Azimut y la Altura solar
     Para X: 299.702684 grados <-- Azimut
     Para Y: 29.314764 grados <-- Altura Solar
 Los resultados pueden variar dependiendo de la ubicación y la hora del día en que se ejecute el programa.
+# Autores: 
+## [Israel Rodriguez](https://github.com/IsraelSRodriguezT)
+## [Carlos Granda](https://github.com/Carlosjosu)
+## [Royel Jima](https://github.com/R0yalCode)
+## [Daniel Pardo](https://github.com/Dan1el17)
+## [Juan Calopino](https://github.com/JuaaanCalopino)
