@@ -67,39 +67,40 @@ El objetivo principal del proyecto es desarrollar un sistema de seguimiento sola
 
 # Instrucciones de Instalación
 ### Pasos para Clonar y Compilar
-###### Clonar el Repositorio:
-Abre Visual Studio Code y clona el repositorio que contiene el código del proyecto:
+###### Clonar el Repositorio
+###### Abre Visual Studio Code
 
-- Abre el terminal integrado en Visual Studio Code 
+###### Abre la terminal integrada
+- Ve al menú superior y selecciona Terminal > Nueva Terminal. Esto abrirá una terminal integrada en la parte inferior de la ventana de Visual Studio Code.
 
-- Clona el repositorio utilizando el comando 
+###### Ubícate en la carpeta donde deseas clonar el repositorio
+- Utiliza el comando **cd** seguido de la ruta de la carpeta donde quieres que se clone el repositorio. Ejemplo, si quieres clonarlo en tu carpeta de proyectos, puedes hacer algo como:
 
-
-
-
+      cd ~/Documentos/proyectos
+Esto cambiará el directorio actual de la terminal a ~/Documentos/proyectos.
+###### Clona el repositorio
+- Clona el repositorio utilizando el siguiente comando: 
 
       git clone https://github.com/IsraelSRodriguezT/Grupo4_PIS_U2.git
-  
-Cambia al directorio del proyecto clonado utilizando el comando "cd".
+###### Espera a que termine el proceso
+- Una vez que se complete la clonación, verás un mensaje indicando que el repositorio se ha clonado correctamente.
 
+###### Explora el repositorio
+- En la barra lateral izquierda de Visual Studio Code, encontrarás un icono de explorador de archivos (parece un icono de carpeta).
+- Haz clic en este icono para abrir el explorador de archivos.
+- Busca y selecciona la carpeta del repositorio que acabas de clonar. Por lo general, estará ubicada en la ruta que especificaste al clonar el repositorio desde la terminal.
+- Al hacer clic en la carpeta del repositorio, Visual Studio Code mostrará todos los archivos y carpetas dentro de ese repositorio en el área principal de trabajo.
+- Una vez que has abierto el repositorio en Visual Studio Code, puedes navegar por los archivos y carpetas haciendo clic en ellos en el explorador de archivos.
+- Para abrir el codigo tendras que buscar el siguiente archivo:
+  
+      PIS_Grupo4.c
+
+- Simplemente haz clic en él y se abrirá en el editor de código de Visual Studio Code.
 ###### Compilar y Ejecutar el Código
 - Utiliza las funciones integradas de Visual Studio Code para compilar y ejecutar el código.
 
-
 # Uso
 ## Ejecución del Programa
-#### Compilación del Programa:
-Asegúrate de haber compilado el programa según las instrucciones proporcionadas en la sección anterior. Esto generará el ejecutable que podrás utilizar para ejecutar el programa principal.
-
-#### Ejecución del Programa:
-Desde la terminal o línea de comandos, navega hasta el directorio donde se encuentra el ejecutable compilado. Luego, ejecuta el programa con el siguiente comando:
-
-
-
-
-    ./nombre_del_ejecutable
-Sustituye "nombre_del_ejecutable" por el nombre que hayas elegido durante la compilación del programa.
-
 #### Proporcionar Coordenadas Geográficas:
 Una vez que el programa esté en ejecución, seguirá instrucciones para ingresar las coordenadas geográficas (latitud y longitud).
 
