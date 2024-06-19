@@ -15,15 +15,15 @@ El objetivo principal del proyecto es desarrollar un sistema de seguimiento sola
 ###### Sistema Operativo
 - Compatible con Windows, macOS o Linux.
 ###### Compilador de C
-- **Windows**: Puedes utilizar MinGW, que proporciona el compilador GCC para Windows.
+- **Windows**: Puedes utilizar MinGW, que proporciona el compilador GCC para Windows.  Para instalar MinGW ingresa [aqui](https://sourceforge.net/projects/mingw/files/).
 - **macOS**: Xcode incluye el compilador de C, así que no se requiere una instalación adicional.
 - **Linux**: Instala GCC a través de tu gestor de paquetes.
 ###### Visual Studio Code
-- Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/)
+- Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/).
 ###### Extensiones para Visual Studio Code
 - **C/C++**: Instala la extensión oficial de C/C++ proporcionada por Microsoft
 ###### Arduino IDE
-- Descarga e instala Arduino IDE desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](http://www.arduino.cc/en/software "ir al sitio")
+- Descarga e instala Arduino IDE desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](http://www.arduino.cc/en/software "ir al sitio").
 ###### Librerias estándar de C
 - Las librerias estandar de C, utilizadas son: 
 
@@ -33,14 +33,23 @@ El objetivo principal del proyecto es desarrollar un sistema de seguimiento sola
 
 #### Requisitos de Hardware:
 ###### Plataforma Arduino
+![](https://http2.mlstatic.com/D_NQ_NP_811100-MEC76684260662_062024-O.webp)
+> Arduino uno R3
 
 - Se necesitaría un Arduino uno R3
 - Conexiones eléctricas adecuadas y conocimientos de cómo cargar y ejecutar el código en un Arduino.
 
 ###### Servomotor
-- Dos servomotores para el seguimiento solar, que se moverá para orientar el panel solar hacia la posición óptima.
+![](https://http2.mlstatic.com/D_NQ_NP_836854-MEC32400033461_102019-O.webp)
+> Servomotor
+
+- Dos servomotores para el seguimiento solar, que se moverán para orientar el panel solar hacia una posición óptima.
+- Un servomotor lo movera en el eje x, con los resultados del azimut.
+- El otro servomotor lo va a mover en el eje y, con los resultados de la altura solar.
 
 ###### Placa de Protoboard
+![](https://www.electrio.es/WebRoot/StoreES3/Shops/80295836/5E75/0236/E7D3/0030/608F/0A0C/6D10/89ED/Protoboad_400_1_ml.jpg)
+> Placa de protoboard
 - Una placa de protoboard para montar los componentes de forma provisional y facilitar las conexiones.
 
 ###### Cables y Conectores
