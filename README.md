@@ -13,15 +13,25 @@ El objetivo principal del proyecto es desarrollar un sistema de seguimiento sola
 #### Requisitos de Software:
 
 ###### Sistema Operativo
-- El programa está diseñado para ser ejecutado en un entorno que soporte compiladores de C estándar, como Windows.
+- Compatible con Windows, macOS o Linux.
 ###### Compilador de C
-- Se requiere un compilador de C compatible (por ejemplo, GCC en Windows o cualquier compilador que admita las bibliotecas estándar utilizadas).
-###### Bibliotecas estándar de C
-- Las bibliotecas estándar utilizadas (stdio.h, time.h, math.h) deben estar disponibles y ser accesibles para el compilador.
-###### Biblioteca windows.h
-- Específicamente requerida si se está desarrollando para el entorno Windows para algunas funciones relacionadas con el tiempo.
-#### Requisitos de Hardware
+- **Windows**: Puedes utilizar MinGW, que proporciona el compilador GCC para Windows.
+- **macOS**: Xcode incluye el compilador de C, así que no se requiere una instalación adicional.
+- **Linux**: Instala GCC a través de tu gestor de paquetes.
+###### Visual Studio Code
+- Descarga e instala Visual Studio Code desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](https://code.visualstudio.com/)
+###### Extensiones para Visual Studio Code
+- **C/C++**: Instala la extensión oficial de C/C++ proporcionada por Microsoft
+###### Arduino IDE
+- Descarga e instala Arduino IDE desde su sitio web oficial. Para ir al sitio oficial ingresa [aqui](http://www.arduino.cc/en/software "ir al sitio")
+###### Librerias estándar de C
+- Las librerias estandar de C, utilizadas son: 
 
+      <stdio.h>: Para la entrada y salida estándar.
+      <time.h>: Para trabajar con fechas y horas del sistema.
+      <math.h>: Para funciones matemáticas como sin(), cos(), asin(), acos().
+
+#### Requisitos de Hardware:
 ###### Plataforma Arduino
 
 - Se necesitaría un Arduino uno R3
@@ -97,7 +107,7 @@ Ejemplo de Entrada:
 En este ejemplo, las coordenadas ingresadas son de Loja. El programa esperará que ingreses la latitud y la longitud en grados decimales.
 
 #### Resultados Esperados:
-Después de ingresar las coordenadas, el programa realizará cálculos internos utilizando las ecuaciones astronómicas y trigonométricas definidas en el código. Los resultados esperados podrían incluir:
+Después de ingresar las coordenadas, el programa realizará cálculos internos utilizando las ecuaciones astronómicas y trigonométricas definidas en el código. Los resultados esperados incluyen:
 
 - Dirección geográfica de las coordenadas ingresadas.
 - Fecha y hora actual del sistema.
@@ -115,10 +125,10 @@ A continuación, te damos un ejemplo simplificado de cómo podría ser la ejecuc
     
     Fecha: 17/6/2024 , Hora: 16:0
     Bienvenido al programa para calcular la direccion y altura del sol
-    Se requiere de tus coordenadas para realizar el calculo
-    Ingresa la latitud
+    Se requieren de tus coordenadas para realizar el calculo
+    Ingresa como dato flotante el valor de la latitud de tu zona. Teniendo en cuenta el rango [-90,90]
     -3.99313
-    Ingresa la longitud
+    Ingresa como dato flotante el valor de la longitud de tu zona. Teniendo en cuenta el rango [-180,180]
     -79.20422
     Valor de latitud de su zona geografica 
     3.993130 S
@@ -141,8 +151,8 @@ A continuación, te damos un ejemplo simplificado de cómo podría ser la ejecuc
     El valor del Azimut: 5.230799 en radianes
     El valor del Azimut: 299.702684 en grados
     Los valores que van a ir hacia el panel son:
-    Para X: 299.702684 grados
-    Para Y: 29.314764 grados
+    Para X: 299.702684 grados <-- Azimut
+    Para Y: 29.314764 grados <-- Altura Solar
 
 En este ejemplo, se muestra cómo el programa calcula la posición del sol para las coordenadas geográficas ingresadas que son de la provincia de Loja.
 
@@ -152,6 +162,8 @@ Y la fecha y hora del sistema
 
     Fecha: 17/6/2024 
     Hora: 16:0
+Y da como resultado el Azimut y la Altura solar
 
-
+    Para X: 299.702684 grados <-- Azimut
+    Para Y: 29.314764 grados <-- Altura Solar
 Los resultados pueden variar dependiendo de la ubicación y la hora del día en que se ejecute el programa.
